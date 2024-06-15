@@ -1,7 +1,7 @@
 # Generating the keys:
 On root directory of your rom, run:
 
-    git clone https://github.com/GenesisOS/scripts.git -b utopia-2.0 scripts
+    git clone https://github.com/Nomishaw21/scripts.git scripts
     chmod +x scripts/generate_certs.sh
     ./scripts/generate_certs.sh
 
@@ -15,7 +15,7 @@ You will need to the leave the passphrase blank and press Enter to generate keys
 ### NOTE: Make sure to change device name in build_and_sign.sh (line no. 7)
 On root directory of your rom, run:
 
-    git clone https://github.com/GenesisOS/scripts.git -b utopia-2.0 scripts
+    git clone https://github.com/Nomishaw21/scripts.git scripts
     chmod +x scripts/build_and_sign.sh
     ./scripts/build_and_sign.sh
 
