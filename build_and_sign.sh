@@ -4,7 +4,7 @@
 source build/envsetup.sh
 
 # Select the build configuration
-lunch genesis_device-ap1a-user
+lunch blaze_stone-userdebug
 
 # Build the target files package and otatools
 m target-files-package otatools
